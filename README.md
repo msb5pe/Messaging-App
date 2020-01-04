@@ -36,9 +36,9 @@ Where server_IP is the IP address the server is hosted on and server_port is the
 
 ## Client Commands
 
-**message**  *user message* - Send <message> to <user> through the server. If the user is online then deliver the message immediately, else store the message for offline delivery. If <user> has blocked A, then a message saying that A has been blocked. If user is not listed in credentials file, then error message is displayed.
+**message**  *user message* - Send *message* to *user* through the server. If the user is online then deliver the message immediately, else store the message for offline delivery. If <user> has blocked A, then a message saying that A has been blocked. If user is not listed in credentials file, then error message is displayed.
 	
-**broadcast** *message* - User A sends <message> to all users except A and users who have blocked A. Informs A that message couldn't be sent to some users.
+**broadcast** *message* - User A sends *message* to all users except A and users who have blocked A. Informs A that message couldn't be sent to some users.
 
 **whoelse** - Displays list of all users currently online.
 
