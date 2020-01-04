@@ -9,4 +9,4 @@ Server run command:
   
 Client run command:
 
-  java Client <server_IP> <server_port>
+ 	java Client <server_IP> <server_port>
